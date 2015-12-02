@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "es5",
+		"module": "commonjs"
+	},
+	"filesGlob": [
+		"**/*.ts",
+		"!demo/node_modules/**/*.*",
+		"!demo/platforms/**/*.*"
+	],
+	"files": [
+		"index.ios.ts"
+	]
+}

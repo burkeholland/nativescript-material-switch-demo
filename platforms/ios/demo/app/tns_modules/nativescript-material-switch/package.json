@@ -1,0 +1,17 @@
+{
+  "name": "nativescript-material-switch",
+  "version": "1.0.0",
+  "description": "This package installs the Material Design Switch",
+  "main": "material-switch.js",
+  "nativescript": {
+    "platforms": {
+      "ios": "1.3.0"
+    }
+  },
+  "readme": "ERROR: No README data found!",
+  "_id": "nativescript-material-switch@1.0.0",
+  "scripts": {},
+  "_shasum": "96134e12c0b2f90168747ae8e305a8623c88dde8",
+  "_from": "../plugin",
+  "_resolved": "file:../plugin"
+}

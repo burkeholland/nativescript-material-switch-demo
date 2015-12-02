@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		343D545276353170EB299D2E49394E21 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		3829EE7A1DCAA918A4E1B9F2F53CDFD1 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A54035D322E2C09C741A93E67215E88 /* JTMaterialSwitch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FFECDFA5910B8880374C5F55B10A51C /* JTMaterialSwitch-dummy.m */; };
+		3C3EA961B8009C138E4A10144F1CE87C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		80C808678A867FDAC73130724F762C05 /* JTMaterialSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC65D2359D9FF6A75F076FC808A1910 /* JTMaterialSwitch.m */; };
+		92DB4DC90FEB8EC69458879874DEEAAE /* JTMaterialSwitch.h in Headers */ = {isa = PBXBuildFile; fileRef = 844789B13BA02528FCFE7353AA5150E6 /* JTMaterialSwitch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A69DD3C1AF78FB43ADB491A16B786C52 /* JTMaterialSwitch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F082B5178B46572B62F0271251C58489 /* JTMaterialSwitch.bundle */; };
+		A6C3F73F9B1EEA7E88E79B0CDFCFDADB /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		A7E03529FD391DC44650A59D60B4BDA6 /* JTMaterialSwitch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12C029397BD79BDA36884254981FB5AF /* JTMaterialSwitch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C9037BD20948BE8E58987CEC13441C1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2550C2DDD8A3B6A86481A5A031BFE6F;
+			remoteInfo = JTMaterialSwitch;
+		};
+		A7B45D01F0A4B8E4ABCF00D8DE9F0496 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B617F8B0851DCDF666A4909092E791;
+			remoteInfo = "JTMaterialSwitch-JTMaterialSwitch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FFECDFA5910B8880374C5F55B10A51C /* JTMaterialSwitch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JTMaterialSwitch-dummy.m"; sourceTree = "<group>"; };
+		12C029397BD79BDA36884254981FB5AF /* JTMaterialSwitch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTMaterialSwitch-umbrella.h"; sourceTree = "<group>"; };
+		2407C330CB1952F2208D88E912855F20 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4898223D337F62B7E738A9FC4FB612DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JTMaterialSwitch.xcconfig; sourceTree = "<group>"; };
+		68430FBD715F69E856E889B6BE2A0D63 /* JTMaterialSwitch-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JTMaterialSwitch-prefix.pch"; sourceTree = "<group>"; };
+		74F5E7800EE205A71B5F5B5431FD6C5B /* JTMaterialSwitch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JTMaterialSwitch.modulemap; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		844789B13BA02528FCFE7353AA5150E6 /* JTMaterialSwitch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JTMaterialSwitch.h; path = Pod/Classes/JTMaterialSwitch.h; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BD5101D3CCDB308F32E3FECF518D1D8A /* JTMaterialSwitch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTMaterialSwitch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAC65D2359D9FF6A75F076FC808A1910 /* JTMaterialSwitch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JTMaterialSwitch.m; path = Pod/Classes/JTMaterialSwitch.m; sourceTree = "<group>"; };
+		F082B5178B46572B62F0271251C58489 /* JTMaterialSwitch.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTMaterialSwitch.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		339E7A6572BA29C337B8888641369D5B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		959C7CD4D85C45C4A51E3D6A5798CA70 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C3EA961B8009C138E4A10144F1CE87C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3F209983D480080FD578A49C1048F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				343D545276353170EB299D2E49394E21 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EA20B1577785F5F2B98A2F28A624246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F082B5178B46572B62F0271251C58489 /* JTMaterialSwitch.bundle */,
+				BD5101D3CCDB308F32E3FECF518D1D8A /* JTMaterialSwitch.framework */,
+				2407C330CB1952F2208D88E912855F20 /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		76D953A855CF6D2449BECAE0F0475B43 /* JTMaterialSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				844789B13BA02528FCFE7353AA5150E6 /* JTMaterialSwitch.h */,
+				EAC65D2359D9FF6A75F076FC808A1910 /* JTMaterialSwitch.m */,
+				DCCB278A0703713AD4F7761613656F3B /* Support Files */,
+			);
+			path = JTMaterialSwitch;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				CBC44F5CAEC9F6651FB6460B9744B130 /* Pods */,
+				6EA20B1577785F5F2B98A2F28A624246 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CBC44F5CAEC9F6651FB6460B9744B130 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76D953A855CF6D2449BECAE0F0475B43 /* JTMaterialSwitch */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DCCB278A0703713AD4F7761613656F3B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4898223D337F62B7E738A9FC4FB612DF /* Info.plist */,
+				74F5E7800EE205A71B5F5B5431FD6C5B /* JTMaterialSwitch.modulemap */,
+				5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */,
+				0FFECDFA5910B8880374C5F55B10A51C /* JTMaterialSwitch-dummy.m */,
+				68430FBD715F69E856E889B6BE2A0D63 /* JTMaterialSwitch-prefix.pch */,
+				12C029397BD79BDA36884254981FB5AF /* JTMaterialSwitch-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JTMaterialSwitch";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1FF66D68C3E8A8511ADB74EB4717179E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7E03529FD391DC44650A59D60B4BDA6 /* JTMaterialSwitch-umbrella.h in Headers */,
+				92DB4DC90FEB8EC69458879874DEEAAE /* JTMaterialSwitch.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C7D25C52E7264817BCAE5300D2C5E2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3829EE7A1DCAA918A4E1B9F2F53CDFD1 /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35B617F8B0851DCDF666A4909092E791 /* JTMaterialSwitch-JTMaterialSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2120FD0ACE305292B21ABA11679DD5E8 /* Build configuration list for PBXNativeTarget "JTMaterialSwitch-JTMaterialSwitch" */;
+			buildPhases = (
+				49620A235FD6635952B334E8B932FB2A /* Sources */,
+				339E7A6572BA29C337B8888641369D5B /* Frameworks */,
+				7072A707FD7BD30D98B64F985D42689D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JTMaterialSwitch-JTMaterialSwitch";
+			productName = "JTMaterialSwitch-JTMaterialSwitch";
+			productReference = F082B5178B46572B62F0271251C58489 /* JTMaterialSwitch.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C2550C2DDD8A3B6A86481A5A031BFE6F /* JTMaterialSwitch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96796E5589CDF86A60295483A3291E12 /* Build configuration list for PBXNativeTarget "JTMaterialSwitch" */;
+			buildPhases = (
+				098490A1055A52766BA08CB1537C3A86 /* Sources */,
+				C3F209983D480080FD578A49C1048F46 /* Frameworks */,
+				C70B92B302706D24410D2E6E9BFFAF8D /* Resources */,
+				1FF66D68C3E8A8511ADB74EB4717179E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB470279BB215253913FC245ED626981 /* PBXTargetDependency */,
+			);
+			name = JTMaterialSwitch;
+			productName = JTMaterialSwitch;
+			productReference = BD5101D3CCDB308F32E3FECF518D1D8A /* JTMaterialSwitch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C92B1E41F1EDAFC997977E192B0F3F83 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E2F7595C502E61E38E437A59A256D8 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				A0DC0646A8E63B86BDDBC1C0C5CB05AA /* Sources */,
+				959C7CD4D85C45C4A51E3D6A5798CA70 /* Frameworks */,
+				9C7D25C52E7264817BCAE5300D2C5E2D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEA99F8F2AEB37975E0DBC0969D9C20 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 2407C330CB1952F2208D88E912855F20 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 6EA20B1577785F5F2B98A2F28A624246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2550C2DDD8A3B6A86481A5A031BFE6F /* JTMaterialSwitch */,
+				35B617F8B0851DCDF666A4909092E791 /* JTMaterialSwitch-JTMaterialSwitch */,
+				C92B1E41F1EDAFC997977E192B0F3F83 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7072A707FD7BD30D98B64F985D42689D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C70B92B302706D24410D2E6E9BFFAF8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A69DD3C1AF78FB43ADB491A16B786C52 /* JTMaterialSwitch.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		098490A1055A52766BA08CB1537C3A86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A54035D322E2C09C741A93E67215E88 /* JTMaterialSwitch-dummy.m in Sources */,
+				80C808678A867FDAC73130724F762C05 /* JTMaterialSwitch.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49620A235FD6635952B334E8B932FB2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0DC0646A8E63B86BDDBC1C0C5CB05AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6C3F73F9B1EEA7E88E79B0CDFCFDADB /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB470279BB215253913FC245ED626981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "JTMaterialSwitch-JTMaterialSwitch";
+			target = 35B617F8B0851DCDF666A4909092E791 /* JTMaterialSwitch-JTMaterialSwitch */;
+			targetProxy = A7B45D01F0A4B8E4ABCF00D8DE9F0496 /* PBXContainerItemProxy */;
+		};
+		CFEA99F8F2AEB37975E0DBC0969D9C20 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JTMaterialSwitch;
+			target = C2550C2DDD8A3B6A86481A5A031BFE6F /* JTMaterialSwitch */;
+			targetProxy = 1C9037BD20948BE8E58987CEC13441C1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		295EA584615383F521D3A34AC3410915 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3BD9179CBC0FF66E426DA64913951678 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTMaterialSwitch/JTMaterialSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTMaterialSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTMaterialSwitch/JTMaterialSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = JTMaterialSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A1A3DE976295E848ACD9CFB4CD2FBCBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A1D12473DAD6FD387B85F6D987741A6F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JTMaterialSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		BDE799874B47769DF9BFC721B44BB3CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = JTMaterialSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		F878B45CA943D867E786AFD73BEA7F2A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BC1B46ED9F5A14A723C0CF90BA1C935 /* JTMaterialSwitch.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JTMaterialSwitch/JTMaterialSwitch-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JTMaterialSwitch/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JTMaterialSwitch/JTMaterialSwitch.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JTMaterialSwitch;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2120FD0ACE305292B21ABA11679DD5E8 /* Build configuration list for PBXNativeTarget "JTMaterialSwitch-JTMaterialSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE799874B47769DF9BFC721B44BB3CA /* Debug */,
+				A1D12473DAD6FD387B85F6D987741A6F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E2F7595C502E61E38E437A59A256D8 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				295EA584615383F521D3A34AC3410915 /* Debug */,
+				A1A3DE976295E848ACD9CFB4CD2FBCBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		96796E5589CDF86A60295483A3291E12 /* Build configuration list for PBXNativeTarget "JTMaterialSwitch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD9179CBC0FF66E426DA64913951678 /* Debug */,
+				F878B45CA943D867E786AFD73BEA7F2A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

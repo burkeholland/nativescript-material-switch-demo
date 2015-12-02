@@ -1,0 +1,21 @@
+<Page xmlns="http://schemas.nativescript.org/tns.xsd" xmlns:custom="custom/material-switch" loaded="pageLoaded">
+  <StackLayout id="layout">
+    <!--<custom:material-switch isOn="false" isEnabled="{{ isEnabled }}" isBounceEnabled="{{ isBounceEnabled }}" isRippleEnabled="{{ isRippleEnabled }}"/>-->
+    <StackLayout orientation="horizontal">
+      <Label text="Is On" textWrap="true"/>
+      <Switch checked="{{ isOn }}" />
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+      <Label text="Is Enabled" textWrap="true"/>
+      <Switch checked="{{ isEnabled }}" />
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+      <Label text="Is Bounce Enabled" textWrap="true"/>
+      <Switch checked="{{ isBounceEnabled }}" />
+    </StackLayout>
+    <StackLayout orientation="horizontal">
+      <Label text="Is Ripple Enabled" textWrap="true"/>
+      <Switch checked="{{ isRippleEnabled }}" />
+    </StackLayout>
+  </StackLayout>
+</Page>
